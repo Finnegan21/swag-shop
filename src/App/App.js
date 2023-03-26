@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
-import logo from './logo.svg';
 import './App.css';
+import logo1 from './logo1.png';
 import HttpService from '../services/http-service';
 import Product from '../product/product';
 import WishList from '../wishlist/wishlist';
@@ -36,7 +36,8 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Welcome to Swag Shop</h1>
+          <img src={logo1} className="App-logo" alt="logo" />
         </header>
         <div className="container-fluid App-main">
           <div className='row'>
